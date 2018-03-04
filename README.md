@@ -14,7 +14,7 @@ git clone https://github.com/justinblaber/topup_eddy_preprocess.git
 wget https://justinblaber.org/downloads/github/topup_eddy_preprocess/scans.zip
 unzip scans.zip
 ```
-4) In MATLAB:
+3) In MATLAB:
 ```
 >> addpath('system_utils');
 >> addpath(genpath('nifti_utils'));
