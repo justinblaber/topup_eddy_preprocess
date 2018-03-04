@@ -26,3 +26,8 @@ If you've downloaded the example data, then edit the test script (only the `fsl_
 ```
 >> edit test_topup_eddy_preprocess
 ```
+The output PDF should look like:
+
+<p align="center">
+  <a href="https://justinblaber.org/downloads/github/topup_eddy_preprocess/topup_eddy.pdf"><img width="769" height="994" src="https://i.imgur.com/NAxmWmc.png"></a>
+</p>
