@@ -14,15 +14,15 @@ git clone https://github.com/justinblaber/topup_eddy_preprocess.git
 wget https://justinblaber.org/downloads/github/topup_eddy_preprocess/scans.zip
 unzip scans.zip
 ```
-4) In MATLAB:
+3) In MATLAB:
 ```
 >> addpath('system_utils');
 >> addpath(genpath('nifti_utils'));
 >> addpath(genpath('dwmri_visualizer'));
 >> addpath('topup_eddy_preprocess');
 ```
-If you've downloaded the example data, then run the test:
+If you've downloaded the example data, then edit the test script (only the `fsl_path` variable should have to be changed) and run it:
 
 ```
->> test_topup_eddy_preprocess
+>> edit test_topup_eddy_preprocess
 ```
