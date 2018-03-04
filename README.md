@@ -24,5 +24,5 @@ unzip scans.zip
 If you've downloaded the example data, then run the test:
 
 ```
->> test_topup_eddy_preprocessing
+>> test_topup_eddy_preprocess
 ```
