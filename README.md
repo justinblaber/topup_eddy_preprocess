@@ -33,6 +33,15 @@ bet_params = '-f 0.3 -R';
 dwmri_info(1).base_path = 'scans/1000_32_1';
 dwmri_info(1).scan_descrip = 'scan';
 dwmri_info(1).pe_dir = 'A';
+dwmri_info(2).base_path = 'scans/1000_6_rev';
+dwmri_info(2).scan_descrip = 'b0';
+dwmri_info(2).pe_dir = 'P';
+dwmri_info(3).base_path = 'scans/2000_60';
+dwmri_info(3).scan_descrip = 'scan';
+dwmri_info(3).pe_dir = 'A';
+dwmri_info(4).base_path = 'scans/1000_32_2';
+dwmri_info(4).scan_descrip = 'scan';
+dwmri_info(4).pe_dir = 'A';
 
 % ADC fix - apply it for Philips scanner
 ADC_fix = true;
