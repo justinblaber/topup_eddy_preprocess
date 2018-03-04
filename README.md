@@ -21,8 +21,8 @@ unzip scans.zip
 >> addpath(genpath('dwmri_visualizer'));
 >> addpath('topup_eddy_preprocess');
 ```
-If you've downloaded the example data, then run the test:
+If you've downloaded the example data, then edit the test script (only the `fsl_path` variable should have to be changed) and run it:
 
 ```
->> test_topup_eddy_preprocess
+>> edit test_topup_eddy_preprocess
 ```
