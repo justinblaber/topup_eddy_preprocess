@@ -6,7 +6,7 @@ DWMRI preprocessing with topup and eddy
 2) Download [system_utils](https://github.com/justinblaber/system_utils)
 3) Download [nifti_utils](https://github.com/justinblaber/nifti_utils)
 4) Download [dwmri_visualizer](https://github.com/justinblaber/dwmri_visualizer)
-5) (optional) Download example [scans](justinblaber.org/downloads/github/topup_eddy_preprocess/scans.zip)
+5) (optional) Download example [scans](https://justinblaber.org/downloads/github/topup_eddy_preprocess/scans.zip)
 6) Set environment:
 ```
 addpath('~/system_utils');
