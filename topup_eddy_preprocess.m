@@ -1,4 +1,4 @@
-function [dwmri_all_finished_path, bvec_all_finished_path, bval_all_finished_path, mask_finished_path, eddy_params_finished_path, pdf_path] = topup_eddy_preprocess_pipeline(job_dir_path, dwmri_info, fsl_path, ADC_fix, zero_bval_thresh, prenormalize, use_all_b0s_topup, topup_params, eddy_name, use_b0s_eddy, eddy_params, normalize, sort_scans, bet_params)
+function [dwmri_all_finished_path, bvec_all_finished_path, bval_all_finished_path, mask_finished_path, eddy_params_finished_path, pdf_path] = topup_eddy_preprocess(job_dir_path, dwmri_info, fsl_path, ADC_fix, zero_bval_thresh, prenormalize, use_all_b0s_topup, topup_params, eddy_name, use_b0s_eddy, eddy_params, normalize, sort_scans, bet_params)
     % This is a dwmri preprocessing pipeline that is specifically written
     % to work with FSL 5.0.10 + eddy 5.0.11 (patch). Output nifti will have
     % the same header information as the first dwmri input.
